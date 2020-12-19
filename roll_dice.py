@@ -19,7 +19,7 @@ class gfx:
     def __init__(self):
         self.face_1 = makeSprite("/d_faces/1.png")
         self.face_2 = makeSprite("/d_faces/2.png")
-        self.face_3 = makeSprite("/d_faces/3.png")l
+        self.face_3 = makeSprite("/d_faces/3.png")
         self.face_4 = makeSprite("/d_faces/4.png")
         self.face_5 = makeSprite("/d_faces/5.png")
         self.face_6 = makeSprite("/d_faces/6.png")
@@ -64,4 +64,3 @@ class gfx:
     def show6(self):
         showSprite(self.face_6)
         moveSprite(self.face_6,res_width(), res_height())
-raise
