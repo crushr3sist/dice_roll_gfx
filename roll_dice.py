@@ -64,3 +64,4 @@ class gfx:
     def show6(self):
         showSprite(self.face_6)
         moveSprite(self.face_6,res_width(), res_height())
+raise
